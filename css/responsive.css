@@ -1,0 +1,415 @@
+/* Responsive Design */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 var(--spacing-lg);
+    }
+    
+    .charts-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .reports-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    
+    .metrics-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
+
+/* Mobile (< 768px) */
+@media (max-width: 768px) {
+    /* Header Mobile */
+    .header-content {
+        flex-wrap: wrap;
+        gap: var(--spacing-md);
+    }
+    
+    .logo h1 {
+        font-size: 1.25rem;
+    }
+    
+    .nav {
+        display: none;
+        width: 100%;
+        order: 3;
+    }
+    
+    .nav.active {
+        display: block;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        padding-top: var(--spacing-md);
+        border-top: 1px solid var(--border-gray);
+    }
+    
+    .menu-toggle {
+        display: block;
+    }
+    
+    .header-info {
+        order: 2;
+    }
+    
+    .current-date {
+        display: none;
+    }
+    
+    /* Section Headers */
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .section-header p {
+        font-size: 1rem;
+    }
+    
+    /* Metrics Cards Mobile */
+    .metrics-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .metric-card {
+        padding: var(--spacing-lg);
+        flex-direction: column;
+        text-align: center;
+        gap: var(--spacing-md);
+    }
+    
+    .metric-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.25rem;
+    }
+    
+    .metric-value {
+        font-size: 1.5rem;
+    }
+    
+    /* Charts Mobile */
+    .charts-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .chart-container {
+        height: 250px;
+        padding: var(--spacing-md);
+    }
+    
+    /* Quick Links Mobile */
+    .links-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+    
+    .quick-link {
+        padding: var(--spacing-md);
+    }
+    
+    .quick-link i:first-child {
+        font-size: 1.25rem;
+    }
+    
+    /* Table Controls Mobile */
+    .table-controls {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--spacing-md);
+    }
+    
+    .search-box {
+        max-width: none;
+    }
+    
+    .filter-controls {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    /* Tables Mobile */
+    .table-container {
+        overflow-x: auto;
+    }
+    
+    .data-table {
+        min-width: 600px;
+    }
+    
+    .data-table th,
+    .data-table td {
+        padding: var(--spacing-md);
+        font-size: 0.8rem;
+    }
+    
+    /* Summary Cards Mobile */
+    .summary-cards {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .summary-card {
+        padding: var(--spacing-lg);
+    }
+    
+    .summary-value {
+        font-size: 1.25rem;
+    }
+    
+    /* Reports Mobile */
+    .reports-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+    
+    .report-card .chart-container {
+        height: 200px;
+    }
+    
+    /* Export Buttons Mobile */
+    .export-buttons {
+        flex-direction: column;
+    }
+    
+    .export-buttons .btn-primary {
+        justify-content: center;
+    }
+    
+    /* Timeline Mobile */
+    .timeline-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--spacing-md);
+    }
+    
+    .timeline-container {
+        padding: var(--spacing-lg);
+    }
+    
+    /* Pagination Mobile */
+    .pagination {
+        flex-wrap: wrap;
+        gap: var(--spacing-xs);
+    }
+    
+    .pagination button {
+        padding: var(--spacing-sm);
+        min-width: 40px;
+    }
+}
+
+/* Small Mobile (< 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 var(--spacing-md);
+    }
+    
+    /* Section Padding */
+    .section {
+        padding: var(--spacing-xl) 0;
+    }
+    
+    /* Header Extra Small */
+    .logo i {
+        font-size: 1.5rem;
+    }
+    
+    .logo h1 {
+        font-size: 1rem;
+    }
+    
+    /* Metrics Extra Small */
+    .metric-card {
+        padding: var(--spacing-md);
+    }
+    
+    .metric-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+    
+    .metric-value {
+        font-size: 1.25rem;
+    }
+    
+    /* Charts Extra Small */
+    .chart-container {
+        height: 200px;
+        padding: var(--spacing-sm);
+    }
+    
+    .chart-header {
+        padding: var(--spacing-md);
+        flex-direction: column;
+        align-items: stretch;
+        gap: var(--spacing-sm);
+    }
+    
+    /* Tables Extra Small */
+    .data-table th,
+    .data-table td {
+        padding: var(--spacing-sm);
+        font-size: 0.75rem;
+    }
+    
+    /* Buttons Extra Small */
+    .btn-primary,
+    .btn-secondary {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: 0.875rem;
+    }
+    
+    /* Footer Extra Small */
+    .footer {
+        padding: var(--spacing-lg) 0;
+    }
+    
+    .footer p {
+        font-size: 0.875rem;
+    }
+}
+
+/* Landscape Mobile */
+@media (max-width: 768px) and (orientation: landscape) {
+    .section-header h2 {
+        font-size: 1.75rem;
+    }
+    
+    .metrics-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .summary-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .footer,
+    .menu-toggle,
+    .chart-controls,
+    .table-controls,
+    .export-section,
+    .quick-links {
+        display: none !important;
+    }
+    
+    .section {
+        display: block !important;
+        page-break-inside: avoid;
+    }
+    
+    .metric-card,
+    .chart-card,
+    .report-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid var(--border-gray);
+    }
+    
+    .data-table {
+        font-size: 0.75rem;
+    }
+    
+    .data-table th,
+    .data-table td {
+        padding: var(--spacing-sm);
+    }
+}
+
+/* High DPI Displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .metric-icon,
+    .chart-container canvas {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --white: #1f2937;
+        --light-gray: #111827;
+        --dark-gray: #f9fafb;
+        --border-gray: #374151;
+        --neutral-gray: #9ca3af;
+        --light-blue: #1e3a8a;
+        --light-green: #065f46;
+        --light-red: #991b1b;
+    }
+    
+    .header {
+        background: var(--white);
+        border-bottom: 1px solid var(--border-gray);
+    }
+    
+    .data-table th {
+        background: var(--light-blue);
+        color: var(--white);
+    }
+    
+    .search-box input,
+    .filter-controls select {
+        background: var(--white);
+        color: var(--dark-gray);
+        border-color: var(--border-gray);
+    }
+    
+    .btn-secondary {
+        background: var(--white);
+        color: var(--dark-gray);
+        border-color: var(--border-gray);
+    }
+}
+
+/* Focus Styles for Accessibility */
+.nav-link:focus,
+.btn-primary:focus,
+.btn-secondary:focus,
+.search-box input:focus,
+.filter-controls select:focus {
+    outline: 2px solid var(--primary-blue);
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    :root {
+        --shadow-sm: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+        --shadow-md: 0 6px 12px -2px rgba(0, 0, 0, 0.3);
+        --shadow-lg: 0 15px 25px -5px rgba(0, 0, 0, 0.3);
+    }
+    
+    .metric-card,
+    .chart-card,
+    .table-container,
+    .summary-card,
+    .report-card {
+        border: 2px solid var(--border-gray);
+    }
+    
+    .nav-link:hover,
+    .nav-link.active {
+        border: 2px solid var(--primary-blue);
+    }
+}
+

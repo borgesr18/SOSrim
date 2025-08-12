@@ -1,0 +1,879 @@
+{
+  "empresa": "CLÍNICA NEFROLÓGICA DE CARUARU LTDA.",
+  "data_processamento": "2025-08-12T12:07:33.165434",
+  "total_abas": 4,
+  "abas": {
+    "PLANILHA ATRAS. JAN. A JUL 2025": {
+      "sheet_name": "PLANILHA ATRAS. JAN. A JUL 2025",
+      "total_rows": 263,
+      "total_cols": 12,
+      "raw_data": [
+        {
+          "col_0": "PLANILHA FINANCEIRA - CONTAS A PAGAR",
+          "row_index": 0
+        },
+        {
+          "col_0": "SERVIÇOS BANCÁRIOS",
+          "col_1": "Observações",
+          "col_2": "Atrasados",
+          "col_3": "2025-01-01 00:00:00",
+          "col_4": "2025-02-01 00:00:00",
+          "col_5": "2025-03-01 00:00:00",
+          "col_6": "2025-04-01 00:00:00",
+          "col_7": "2025-05-01 00:00:00",
+          "col_8": "2025-06-01 00:00:00",
+          "col_9": "2025-07-01 00:00:00",
+          "col_10": "2025-08-01 00:00:00",
+          "col_11": "Total",
+          "row_index": 3
+        },
+        {
+          "col_0": "UNICRED - Seguro de Vida",
+          "col_1": "Parcela 7e 8/12 (venc. 30/07)",
+          "col_9": 891.22,
+          "col_10": 891.22,
+          "col_11": 1782.44,
+          "row_index": 4
+        },
+        {
+          "col_0": "SICRED - Seguro de Vida / Prestamista - ICATUs",
+          "col_9": 48.29,
+          "col_10": 48.29,
+          "row_index": 5
+        },
+        {
+          "col_0": "UNICRED - Cartão de Crédito",
+          "col_1": "(Venc. 11/07/2025)",
+          "col_9": 2709.51,
+          "col_10": 5108.61,
+          "col_11": 7818.12,
+          "row_index": 6
+        },
+        {
+          "col_0": "HDI SEGUROS - Seguro Automotivo",
+          "col_1": "valido ate setembro 2025",
+          "col_11": 0,
+          "row_index": 7
+        },
+        {
+          "col_0": "LICENCIAMENTO - IPVA - CARRO EMPRESA",
+          "col_1": "Detran e IPVA",
+          "col_9": 1529.66,
+          "col_11": 1529.66,
+          "row_index": 8
+        },
+        {
+          "col_0": "IPVA",
+          "col_1": "Parc. 06/10 (Venc. 20 cada)",
+          "col_9": 175.25,
+          "col_10": 175.25,
+          "col_11": 350.5,
+          "row_index": 9
+        },
+        {
+          "col_0": "MULTA",
+          "col_9": 444.74,
+          "col_11": 444.74,
+          "row_index": 10
+        },
+        {
+          "col_11": 0,
+          "row_index": 11
+        },
+        {
+          "col_0": "TOTAL - Empréstimos, juros e serviços bancários",
+          "col_2": 0,
+          "col_3": 0,
+          "col_4": 0,
+          "col_5": 0,
+          "col_6": 0,
+          "col_7": 0,
+          "col_8": 0,
+          "col_9": 3775.9800000000005,
+          "col_10": 6223.37,
+          "col_11": 9951.06,
+          "row_index": 12
+        },
+        {
+          "col_0": "SÓCIOS - Dist Lucros, Honorários e RT",
+          "col_1": "Observações",
+          "col_2": "Atrasados",
+          "col_3": "2025-01-01 00:00:00",
+          "col_4": "2025-02-01 00:00:00",
+          "col_5": "2025-03-01 00:00:00",
+          "col_6": "2025-04-01 00:00:00",
+          "col_7": "2025-05-01 00:00:00",
+          "col_8": "2025-06-01 00:00:00",
+          "col_9": "2025-07-01 00:00:00",
+          "col_10": "2025-08-01 00:00:00",
+          "col_11": "Total",
+          "row_index": 15
+        },
+        {
+          "col_0": "Honorários da Diretoria  - Aniedja",
+          "col_1": "Comp. 07/2025",
+          "col_9": 28065.66,
+          "col_10": 28065.66,
+          "col_11": 56131.32,
+          "row_index": 16
+        },
+        {
+          "col_0": "Honorários da Diretoria  - Lucia",
+          "col_1": "Comp. 07/2025",
+          "col_9": 28065.66,
+          "col_10": 28065.66,
+          "col_11": 56131.32,
+          "row_index": 17
+        },
+        {
+          "col_0": "Responsabilidade Técnica - Aniedja",
+          "col_1": "Comp. 07/2025",
+          "col_9": 8680,
+          "col_10": 8680,
+          "col_11": 17360,
+          "row_index": 18
+        },
+        {
+          "col_0": "Responsabilidade Técnica - Lúcia",
+          "col_1": "Comp. 07/2025",
+          "col_9": 14680,
+          "col_10": 14680,
+          "col_11": 29360,
+          "row_index": 19
+        },
+        {
+          "col_0": "Distribuição de Lucros - Aniedja",
+          "col_1": "Comp. 07/2025",
+          "col_9": 10471.68,
+          "col_10": 10471.68,
+          "col_11": 20943.36,
+          "row_index": 20
+        },
+        {
+          "col_0": "Distribuição de Lucros - Lucia",
+          "col_1": "Comp. 07/2025",
+          "col_9": 10471.68,
+          "col_10": 10471.68,
+          "col_11": 20943.36,
+          "row_index": 21
+        },
+        {
+          "col_0": "Distribuição de Lucros - Jose Eduardo",
+          "col_1": "Comp. 07/2025",
+          "col_9": 10471.68,
+          "col_10": 10471.68,
+          "col_11": 20943.36,
+          "row_index": 23
+        },
+        {
+          "col_0": "APORTE DE SOCIOS Aniedja",
+          "col_1": "Pagto aluguel R$ 58.000 + juros",
+          "col_9": 59800,
+          "col_11": 59800,
+          "row_index": 24
+        }
+      ],
+      "summary": {
+        "total_valores": 795,
+        "soma_valores": 18356948.849999994,
+        "valor_medio": 23090.5016981132,
+        "valor_maximo": 1813532.5,
+        "valor_minimo": 0
+      },
+      "type": "contas_atrasadas",
+      "description": "Planilha de contas em atraso de Janeiro a Julho 2025"
+    },
+    "PLANILHA ACORDO ": {
+      "sheet_name": "PLANILHA ACORDO ",
+      "total_rows": 48,
+      "total_cols": 48,
+      "raw_data": [
+        {
+          "col_1": "SOS - ACORDOS FORNECEDORES",
+          "row_index": 0
+        },
+        {
+          "col_3": "MESES",
+          "col_4": "2025-07-01 00:00:00",
+          "col_5": "2025-08-01 00:00:00",
+          "col_6": "2025-09-01 00:00:00",
+          "col_7": "2025-10-01 00:00:00",
+          "col_8": "2025-11-01 00:00:00",
+          "col_9": "2025-12-01 00:00:00",
+          "col_10": "2026-01-01 00:00:00",
+          "col_11": "2026-02-01 00:00:00",
+          "col_12": "2026-03-01 00:00:00",
+          "col_13": "2026-04-01 00:00:00",
+          "col_14": "2026-05-01 00:00:00",
+          "col_15": "2026-06-01 00:00:00",
+          "col_16": "2026-07-01 00:00:00",
+          "col_17": "2026-08-01 00:00:00",
+          "col_18": "2026-09-01 00:00:00",
+          "col_19": "2026-10-01 00:00:00",
+          "col_20": "2026-11-01 00:00:00",
+          "col_21": "2026-12-01 00:00:00",
+          "col_22": "2027-01-01 00:00:00",
+          "col_23": "2027-02-01 00:00:00",
+          "col_24": "2027-03-01 00:00:00",
+          "col_25": "2027-04-01 00:00:00",
+          "col_26": "2027-05-01 00:00:00",
+          "col_27": "2027-06-01 00:00:00",
+          "col_28": "2027-07-01 00:00:00",
+          "col_29": "2027-08-01 00:00:00",
+          "col_30": "2027-09-01 00:00:00",
+          "col_31": "2027-10-01 00:00:00",
+          "col_32": "2027-11-01 00:00:00",
+          "col_33": "2027-12-01 00:00:00",
+          "col_34": "2028-01-01 00:00:00",
+          "col_35": "2028-02-01 00:00:00",
+          "col_36": "2028-03-01 00:00:00",
+          "col_37": "2028-04-01 00:00:00",
+          "col_38": "2028-05-01 00:00:00",
+          "col_39": "2028-06-01 00:00:00",
+          "col_40": "2028-07-01 00:00:00",
+          "col_41": "2028-08-01 00:00:00",
+          "col_42": "2028-09-01 00:00:00",
+          "col_43": "2028-10-01 00:00:00",
+          "col_44": "2028-11-01 00:00:00",
+          "col_45": "2028-12-01 00:00:00",
+          "col_46": "2029-01-01 00:00:00",
+          "col_47": "2029-02-01 00:00:00",
+          "row_index": 1
+        },
+        {
+          "col_1": "VALOR TOTAL A PAGAR",
+          "col_2": "FORNECEDORES ACORDOS",
+          "col_3": "PARCELAS",
+          "row_index": 3
+        },
+        {
+          "col_1": 70000,
+          "col_2": "EXOMED",
+          "col_3": "Parc. 04/16 (Venc.dia 30)",
+          "col_4": 5000,
+          "col_5": 5000,
+          "col_6": 5000,
+          "col_7": 5000,
+          "col_8": 5000,
+          "col_9": 5000,
+          "col_10": 5000,
+          "col_11": 5000,
+          "col_12": 5000,
+          "col_13": 5000,
+          "col_14": 5000,
+          "col_15": 5000,
+          "col_16": 5000,
+          "col_17": 5000,
+          "row_index": 4
+        },
+        {
+          "col_1": 22740,
+          "col_2": "FARMARIM",
+          "col_3": "Parc. 09/12 (Venc. dia 25)",
+          "col_4": 4548,
+          "col_5": 4548,
+          "col_6": 4548,
+          "col_7": 4548,
+          "col_8": 4548,
+          "row_index": 5
+        },
+        {
+          "col_1": 302905.1500000001,
+          "col_2": "FRESENIUS",
+          "col_3": "Parc. 08/24 (Venc. dia 25)",
+          "col_4": 17817.95,
+          "col_5": 17817.95,
+          "col_6": 17817.95,
+          "col_7": 17817.95,
+          "col_8": 17817.95,
+          "col_9": 17817.95,
+          "col_10": 17817.95,
+          "col_11": 17817.95,
+          "col_12": 17817.95,
+          "col_13": 17817.95,
+          "col_14": 17817.95,
+          "col_15": 17817.95,
+          "col_16": 17817.95,
+          "col_17": 17817.95,
+          "col_18": 17817.95,
+          "col_19": 17817.95,
+          "col_20": 17817.95,
+          "row_index": 6
+        },
+        {
+          "col_1": 484628.31,
+          "col_2": "FARMACE",
+          "col_3": "Parc. 05/47 (Venc. dia 30)",
+          "col_4": 10986.13,
+          "col_5": 10984.1,
+          "col_6": 11061.08,
+          "col_7": 11056.65,
+          "col_8": 10993.97,
+          "col_9": 10899.84,
+          "col_10": 10854.4,
+          "col_11": 10899.2,
+          "col_12": 10948.8,
+          "col_13": 10996.8,
+          "col_14": 10890.83,
+          "col_15": 10979.3,
+          "col_16": 10970.45,
+          "col_17": 10984.38,
+          "col_18": 10973.04,
+          "col_19": 10875.65,
+          "col_20": 10974.6,
+          "col_21": 10987.81,
+          "col_22": 10977.1,
+          "col_23": 10973.1,
+          "col_24": 10972.62,
+          "col_25": 10983.27,
+          "col_26": 10970.85,
+          "col_27": 10980.48,
+          "col_28": 10979.23,
+          "col_29": 10989.72,
+          "col_30": 10981.53,
+          "col_31": 10984.04,
+          "col_32": 10985.95,
+          "col_33": 10976.67,
+          "col_34": 10973.11,
+          "col_35": 10989.59,
+          "col_36": 10973.52,
+          "col_37": 10973.36,
+          "col_38": 10980.89,
+          "col_39": 10986.65,
+          "col_40": 10980.88,
+          "col_41": 10985.99,
+          "col_42": 11000.96,
+          "col_43": 10984.61,
+          "col_44": 10988.81,
+          "col_45": 10987.67,
+          "col_46": 10979.67,
+          "col_47": 12771.01,
+          "row_index": 7
+        },
+        {
+          "col_1": 248748.31999999995,
+          "col_2": "TC EMPREEND (ALUGUEL)",
+          "col_3": "Parc. 02/16 (Venc. dia 30)",
+          "col_4": 15546.77,
+          "col_5": 15546.77,
+          "col_6": 15546.77,
+          "col_7": 15546.77,
+          "col_8": 15546.77,
+          "col_9": 15546.77,
+          "col_10": 15546.77,
+          "col_11": 15546.77,
+          "col_12": 15546.77,
+          "col_13": 15546.77,
+          "col_14": 15546.77,
+          "col_15": 15546.77,
+          "col_16": 15546.77,
+          "col_17": 15546.77,
+          "col_18": 15546.77,
+          "col_19": 15546.77,
+          "row_index": 8
+        },
+        {
+          "col_1": 11193.66,
+          "col_2": "TC EMPREEND (ADVOGADOS )",
+          "col_3": "Parc.01/09 (Venc. dia 02)",
+          "col_4": 1243.74,
+          "col_5": 1243.74,
+          "col_6": 1243.74,
+          "col_7": 1243.74,
+          "col_8": 1243.74,
+          "col_9": 1243.74,
+          "col_10": 1243.74,
+          "col_11": 1243.74,
+          "col_12": 1243.74,
+          "row_index": 9
+        },
+        {
+          "col_1": 344575.92,
+          "col_2": "Jose Alves/ Julia Ribeiro/ Maria Amelia",
+          "col_3": "Parc. 02/03 (Venc. 10)",
+          "col_4": 104431.74,
+          "col_5": 104431.74,
+          "col_6": 104431.74,
+          "row_index": 10
+        },
+        {
+          "col_1": 31325.98,
+          "col_2": "Advogado Braulio Antonio",
+          "col_3": "Parc. 02/02 (Venc. 10)",
+          "col_4": 15662.99,
+          "col_5": 15662.99,
+          "row_index": 11
+        },
+        {
+          "col_1": 244314,
+          "col_2": "NORDFARMA",
+          "col_3": "Parc.01/06 (Venc. dia 30)",
+          "col_4": 40719,
+          "col_5": 40719,
+          "col_6": 40719,
+          "col_7": 40719,
+          "col_8": 40719,
+          "col_9": 40719,
+          "row_index": 12
+        },
+        {
+          "col_1": 10368,
+          "col_2": "GLOBAL",
+          "col_3": "Parc. 05/05 (Venc. dia 30)",
+          "col_4": 5184,
+          "col_5": 5184,
+          "row_index": 13
+        },
+        {
+          "col_1": 737550.5199999997,
+          "col_2": "NIPRO",
+          "col_3": "Parc. 11/12, Parc. 01/12, Parc. 01/12, Parc. 01/09",
+          "col_4": 12043.07,
+          "col_5": 12043.07,
+          "col_6": 16043.07,
+          "col_7": 16043.07,
+          "col_8": 16043.07,
+          "col_9": 16043.07,
+          "col_10": 16043.07,
+          "col_11": 16043.07,
+          "col_12": 16043.07,
+          "col_13": 16043.07,
+          "col_14": 16043.07,
+          "col_15": 16043.07,
+          "col_16": 16043.07,
+          "col_17": 16043.07,
+          "col_18": 22043.07,
+          "col_19": 22043.07,
+          "col_20": 22043.07,
+          "col_21": 22043.07,
+          "col_22": 22043.07,
+          "col_23": 22043.07,
+          "col_24": 22043.07,
+          "col_25": 22043.07,
+          "col_26": 22043.07,
+          "col_27": 22043.07,
+          "col_28": 22043.07,
+          "col_29": 22043.07,
+          "col_30": 22043.07,
+          "col_31": 26043.07,
+          "col_32": 26043.07,
+          "col_33": 26043.07,
+          "col_34": 26043.07,
+          "col_35": 26043.07,
+          "col_36": 26043.07,
+          "col_37": 26043.07,
+          "col_38": 26043.07,
+          "col_39": 26043.07,
+          "row_index": 14
+        },
+        {
+          "col_1": 407105.51999999996,
+          "col_2": "ANDBANK",
+          "col_3": "Parc. 53/58",
+          "col_4": 67850.92,
+          "col_5": 67850.92,
+          "col_6": 67850.92,
+          "col_7": 67850.92,
+          "col_8": 67850.92,
+          "col_9": 67850.92,
+          "row_index": 15
+        },
+        {
+          "col_1": 618410.51,
+          "col_2": "UNICRED",
+          "col_3": "Parc. 12/36 (Venc. dia 20)",
+          "col_4": 23785.51,
+          "col_5": 23785,
+          "col_6": 23785,
+          "col_7": 23785,
+          "col_8": 23785,
+          "col_9": 23785,
+          "col_10": 23785,
+          "col_11": 23785,
+          "col_12": 23785,
+          "col_13": 23785,
+          "col_14": 23785,
+          "col_15": 23785,
+          "col_16": 23785,
+          "col_17": 23785,
+          "col_18": 23785,
+          "col_19": 23785,
+          "col_20": 23785,
+          "col_21": 23785,
+          "col_22": 23785,
+          "col_23": 23785,
+          "col_24": 23785,
+          "col_25": 23785,
+          "col_26": 23785,
+          "col_27": 23785,
+          "col_28": 23785,
+          "col_29": 23785,
+          "row_index": 16
+        },
+        {
+          "col_1": 2452.58,
+          "col_2": "COTA CAPitAL",
+          "col_3": "Parc. 10/10",
+          "col_4": 2452.58,
+          "row_index": 17
+        },
+        {
+          "col_2": "ACORDO CELPE  - PRINCIPAL",
+          "col_3": "CONTRATO 816395011",
+          "row_index": 18
+        },
+        {
+          "col_2": "ACORDO CELPE - CASA",
+          "col_3": "CONTRATO 7000237145",
+          "row_index": 19
+        },
+        {
+          "col_1": 729106.44,
+          "col_2": "SICRED",
+          "col_3": "Parc. 43/60 (Venc. dia 25)",
+          "col_4": 38374.44,
+          "col_5": 38374,
+          "col_6": 38374,
+          "col_7": 38374,
+          "col_8": 38374,
+          "col_9": 38374,
+          "col_10": 38374,
+          "col_11": 38374,
+          "col_12": 38374,
+          "col_13": 38374,
+          "col_14": 38374,
+          "col_15": 38374,
+          "col_16": 38374,
+          "col_17": 38374,
+          "col_18": 38374,
+          "col_19": 38374,
+          "col_20": 38374,
+          "col_21": 38374,
+          "col_22": 38374,
+          "row_index": 20
+        }
+      ],
+      "summary": {
+        "total_valores": 491,
+        "soma_valores": 23869533.990000006,
+        "valor_medio": 48614.122179226084,
+        "valor_maximo": 5803243.649999999,
+        "valor_minimo": 0
+      },
+      "type": "acordos_cronograma",
+      "description": "Cronograma de acordos com fornecedores"
+    },
+    "PLANILHA PAGTOS JULHO 2025": {
+      "sheet_name": "PLANILHA PAGTOS JULHO 2025",
+      "total_rows": 223,
+      "total_cols": 9,
+      "raw_data": [
+        {
+          "col_0": "PLANILHA FINANCEIRA - CONTAS A PAGAR - JULHO 2025",
+          "col_7": "Entradas  01/07/2025",
+          "row_index": 0
+        },
+        {
+          "col_7": "ENTRADAS SUS - COMPL. 05/2025",
+          "col_8": 10617.83,
+          "row_index": 1
+        },
+        {
+          "col_7": "ENTRADAS  SUS - COMPL. 05/2025",
+          "col_8": 2167.09,
+          "row_index": 2
+        },
+        {
+          "col_0": "SERVIÇOS BANCÁRIOS",
+          "col_1": "Observações",
+          "col_2": "Atrasado",
+          "col_3": "2025-07-01 00:00:00",
+          "col_7": "ENTRADAS  SUS - COMPL. 05/2025",
+          "col_8": 304958.33,
+          "row_index": 3
+        },
+        {
+          "col_0": "UNICRED - Seguro de Vida",
+          "col_1": "Parcela 7/12 (venc. 30/07)",
+          "col_3": 891.22,
+          "col_7": "NF  SUS - 06/2025",
+          "col_8": 905585.44,
+          "row_index": 4
+        },
+        {
+          "col_0": "UNICRED - Cartão de Crédito",
+          "col_1": "(Venc. 11/07/2025)",
+          "col_3": 2709.51,
+          "col_4": "PAGO",
+          "row_index": 5
+        },
+        {
+          "col_0": "HDI SEGUROS - Seguro Automotivo",
+          "col_1": "valido ate setembro 2025",
+          "col_7": "TOTAL ENTRADAS",
+          "col_8": 1223328.69,
+          "row_index": 6
+        },
+        {
+          "col_0": "IPVA",
+          "col_1": "Parc. 06/10 (Venc. 20 cada)",
+          "col_3": 175.25,
+          "col_4": "PAGO",
+          "row_index": 7
+        },
+        {
+          "col_0": "MULTA",
+          "col_3": 444.74,
+          "row_index": 8
+        },
+        {
+          "col_0": "TOTAL - Empréstimos, juros e serviços bancários",
+          "col_2": 0,
+          "col_3": 4220.72,
+          "row_index": 10
+        },
+        {
+          "col_0": "SÓCIOS - Dist Lucros, Honorários e RT",
+          "col_1": "Observações",
+          "col_2": "Atrasado",
+          "col_3": "2025-07-01 00:00:00",
+          "row_index": 13
+        },
+        {
+          "col_0": "Honorários da Diretoria  - Aniedja",
+          "col_1": "Comp. 06/2025",
+          "col_3": 28065.66,
+          "col_4": "PAGO",
+          "row_index": 14
+        },
+        {
+          "col_0": "Honorários da Diretoria  - Lucia",
+          "col_1": "Comp. 06/2025",
+          "col_3": 28065.66,
+          "col_4": "PAGO",
+          "row_index": 15
+        },
+        {
+          "col_0": "Responsabilidade Técnica - Aniedja",
+          "col_1": "Comp. 06/2025",
+          "col_3": 8680,
+          "col_4": "PAGO",
+          "row_index": 16
+        },
+        {
+          "col_0": "Responsabilidade Técnica - Lúcia",
+          "col_1": "Comp. 06/2025",
+          "col_3": 14680,
+          "col_4": "PAGO",
+          "row_index": 17
+        },
+        {
+          "col_0": "Distribuição de Lucros - Aniedja",
+          "col_1": "Comp. 06/2025",
+          "col_3": 10471.68,
+          "col_4": "PAGO",
+          "row_index": 18
+        },
+        {
+          "col_0": "Distribuição de Lucros - Lucia",
+          "col_1": "Comp. 06/2025",
+          "col_3": 10471.68,
+          "col_4": "PAGO",
+          "row_index": 19
+        },
+        {
+          "col_0": "Distribuição de Lucros - Jose Eduardo",
+          "col_1": "Comp. 06/2025",
+          "col_3": 10471.68,
+          "col_4": "PAGO",
+          "row_index": 20
+        },
+        {
+          "col_0": "APORTE DE SOCIOS Aniedja",
+          "col_1": "Pagto Aluguel R$ 58.000,00 + JUROS",
+          "col_3": 59800,
+          "col_4": "PAGO",
+          "row_index": 22
+        },
+        {
+          "col_0": "Compra da bancada - Aniedja",
+          "col_1": "Permutiom",
+          "col_3": 802.95,
+          "col_4": "PAGO",
+          "row_index": 23
+        }
+      ],
+      "summary": {
+        "total_valores": 356,
+        "soma_valores": 8262237.960000002,
+        "valor_medio": 23208.53359550562,
+        "valor_maximo": 1223328.69,
+        "valor_minimo": -122139.53000000001
+      },
+      "type": "pagamentos_julho",
+      "description": "Planilha de pagamentos de Julho 2025"
+    },
+    "PLANILHA PAGTOS ACORDOS FORN.": {
+      "sheet_name": "PLANILHA PAGTOS ACORDOS FORN.",
+      "total_rows": 29,
+      "total_cols": 6,
+      "raw_data": [
+        {
+          "col_1": "SOS - ACORDOS FORNECEDORES",
+          "row_index": 0
+        },
+        {
+          "col_3": "MESES",
+          "col_4": "2025-07-01 00:00:00",
+          "row_index": 1
+        },
+        {
+          "col_1": "VALOR TOTAL A PAGAR",
+          "col_2": "FORNECEDORES ACORDOS",
+          "col_3": "PARCELAS",
+          "row_index": 3
+        },
+        {
+          "col_1": 5000,
+          "col_2": "EXOMED",
+          "col_3": "Parc. 03/16 (Venc.dia 30)",
+          "col_4": 5000,
+          "col_5": "PAGO",
+          "row_index": 4
+        },
+        {
+          "col_1": 4548,
+          "col_2": "FARMARIM",
+          "col_3": "Parc. 08/12 (Venc. dia 25)",
+          "col_4": 4548,
+          "col_5": "PAGO",
+          "row_index": 5
+        },
+        {
+          "col_1": 10986.13,
+          "col_2": "FARMACE",
+          "col_3": "Parc. 04/47 (Venc. dia 30)",
+          "col_4": 10986.13,
+          "col_5": "PAGO",
+          "row_index": 6
+        },
+        {
+          "col_1": 15546.77,
+          "col_2": "TC EMPREEND (ALUGUEL)",
+          "col_3": "Parc. 01/16 (Venc. dia 30)",
+          "col_4": 15546.77,
+          "col_5": "PAGO",
+          "row_index": 7
+        },
+        {
+          "col_1": 1243.74,
+          "col_2": "TC EMPREEND (ADVOGADOS )",
+          "col_3": "Parc.01/09 (Venc. dia 02)",
+          "col_4": 1243.74,
+          "col_5": "PAGO",
+          "row_index": 8
+        },
+        {
+          "col_1": 5184,
+          "col_2": "GLOBAL",
+          "col_3": "Parc. 04/05 (Venc. dia 30)",
+          "col_4": 5184,
+          "col_5": "PAGO",
+          "row_index": 9
+        },
+        {
+          "col_1": 67850.92,
+          "col_2": "ANDBANK",
+          "col_3": "Parc. 53/58",
+          "col_4": 67850.92,
+          "row_index": 10
+        },
+        {
+          "col_1": 24673.74,
+          "col_2": "UNICRED",
+          "col_3": "Parc. 11/36 (Venc. dia 20)",
+          "col_4": 24673.74,
+          "col_5": "PAGO",
+          "row_index": 11
+        },
+        {
+          "col_1": 12.92,
+          "col_2": "TAXA BANCARIA",
+          "col_4": 12.92,
+          "col_5": "PAGO",
+          "row_index": 12
+        },
+        {
+          "col_1": 20,
+          "col_2": "TARIFA ADIANTAMENTO A DEPOSITANTE",
+          "col_4": 20,
+          "col_5": "PAGO",
+          "row_index": 13
+        },
+        {
+          "col_1": 2452.58,
+          "col_2": "COTA CAPitAL",
+          "col_3": "Parc. 10/10",
+          "col_4": 2452.58,
+          "row_index": 14
+        },
+        {
+          "col_1": 38374.44,
+          "col_2": "SICRED",
+          "col_3": "Parc. 42/60 (Venc. dia 25)",
+          "col_4": 38374.44,
+          "row_index": 15
+        },
+        {
+          "col_1": 21135.93,
+          "col_2": "SICRED 2",
+          "col_3": "Parc. 26/48 (Venc. dia 20)",
+          "col_4": 21135.93,
+          "col_5": "PAGO",
+          "row_index": 16
+        },
+        {
+          "col_1": 2137.65,
+          "col_2": "UNICRED 3",
+          "col_3": "Consorcio",
+          "col_4": 2137.65,
+          "col_5": "PAGO",
+          "row_index": 17
+        },
+        {
+          "col_1": 14764.95,
+          "col_2": "EMPRESTIMO - Sicred L",
+          "col_3": "Parc. 07/12 (Venc. dia 20)",
+          "col_4": 14764.95,
+          "col_5": "PAGO",
+          "row_index": 18
+        },
+        {
+          "col_1": 5000,
+          "col_2": "EMPRESTIMO 2 (R$100.000,00)",
+          "col_3": "(14/06/2024) Rodrigo - Terceiros",
+          "col_4": 5000,
+          "col_5": "PAGO",
+          "row_index": 19
+        },
+        {
+          "col_1": 7075,
+          "col_2": "EMPRESTIMO 3 (R$ 140.000,00)",
+          "col_3": "(04/2021, 03 e 04/2022) Aniedja - Terceiros",
+          "col_4": 7075,
+          "col_5": "PAGO",
+          "row_index": 20
+        }
+      ],
+      "summary": {
+        "total_valores": 74,
+        "soma_valores": 1181677.6800000002,
+        "valor_medio": 15968.6172972973,
+        "valor_maximo": 323673.42000000004,
+        "valor_minimo": 0
+      },
+      "type": "acordos_fornecedores",
+      "description": "Acordos com fornecedores"
+    }
+  }
+}

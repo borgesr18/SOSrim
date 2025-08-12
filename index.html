@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Financeiro - Clínica Nefrológica de Caruaru</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-heartbeat"></i>
+                    <h1>Clínica Nefrológica de Caruaru</h1>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#dashboard" class="nav-link active">Dashboard</a></li>
+                        <li><a href="#contas-atraso" class="nav-link">Contas em Atraso</a></li>
+                        <li><a href="#pagamentos-julho" class="nav-link">Pagamentos Julho</a></li>
+                        <li><a href="#acordos" class="nav-link">Acordos</a></li>
+                        <li><a href="#relatorios" class="nav-link">Relatórios</a></li>
+                    </ul>
+                </nav>
+                <div class="header-info">
+                    <span class="current-date" id="currentDate"></span>
+                    <button class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section active">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Dashboard Financeiro</h2>
+                    <p>Visão geral dos dados financeiros da clínica</p>
+                </div>
+
+                <!-- Metrics Cards -->
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon">
+                            <i class="fas fa-dollar-sign"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Total Geral</h3>
+                            <p class="metric-value" id="totalGeral">R$ 0,00</p>
+                            <span class="metric-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                Valor consolidado
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon alert">
+                            <i class="fas fa-exclamation-triangle"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Contas em Atraso</h3>
+                            <p class="metric-value" id="contasAtraso">0</p>
+                            <span class="metric-change negative">
+                                <i class="fas fa-arrow-down"></i>
+                                Registros pendentes
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon success">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Pagamentos Julho</h3>
+                            <p class="metric-value" id="pagamentosJulho">0</p>
+                            <span class="metric-change positive">
+                                <i class="fas fa-arrow-up"></i>
+                                Transações do mês
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="metric-card">
+                        <div class="metric-icon info">
+                            <i class="fas fa-handshake"></i>
+                        </div>
+                        <div class="metric-content">
+                            <h3>Acordos Ativos</h3>
+                            <p class="metric-value" id="acordosAtivos">0</p>
+                            <span class="metric-change neutral">
+                                <i class="fas fa-minus"></i>
+                                Contratos vigentes
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Charts Section -->
+                <div class="charts-grid">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Distribuição por Tipo</h3>
+                            <div class="chart-controls">
+                                <button class="btn-secondary">
+                                    <i class="fas fa-download"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="distributionChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Valores por Categoria</h3>
+                            <div class="chart-controls">
+                                <button class="btn-secondary">
+                                    <i class="fas fa-download"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="chart-container">
+                            <canvas id="valuesChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="quick-links">
+                    <h3>Acesso Rápido</h3>
+                    <div class="links-grid">
+                        <a href="#contas-atraso" class="quick-link">
+                            <i class="fas fa-clock"></i>
+                            <span>Ver Contas em Atraso</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#pagamentos-julho" class="quick-link">
+                            <i class="fas fa-calendar"></i>
+                            <span>Pagamentos de Julho</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#acordos" class="quick-link">
+                            <i class="fas fa-file-contract"></i>
+                            <span>Gerenciar Acordos</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#relatorios" class="quick-link">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Relatórios Detalhados</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contas em Atraso Section -->
+        <section id="contas-atraso" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Contas em Atraso</h2>
+                    <p>Janeiro a Julho 2025</p>
+                </div>
+
+                <div class="table-controls">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" placeholder="Buscar..." id="searchAtraso">
+                    </div>
+                    <div class="filter-controls">
+                        <select id="filterMes">
+                            <option value="">Todos os meses</option>
+                            <option value="janeiro">Janeiro</option>
+                            <option value="fevereiro">Fevereiro</option>
+                            <option value="março">Março</option>
+                            <option value="abril">Abril</option>
+                            <option value="maio">Maio</option>
+                            <option value="junho">Junho</option>
+                            <option value="julho">Julho</option>
+                        </select>
+                        <button class="btn-primary">
+                            <i class="fas fa-download"></i>
+                            Exportar
+                        </button>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="tableAtraso">
+                        <thead>
+                            <tr>
+                                <th>Descrição</th>
+                                <th>Valor</th>
+                                <th>Vencimento</th>
+                                <th>Status</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableAtrasoBBody">
+                            <!-- Dados serão carregados via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="pagination" id="paginationAtraso">
+                    <!-- Paginação será gerada via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Pagamentos Julho Section -->
+        <section id="pagamentos-julho" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Pagamentos de Julho 2025</h2>
+                    <p>Detalhes das transações do mês</p>
+                </div>
+
+                <div class="summary-cards">
+                    <div class="summary-card">
+                        <h4>Entradas</h4>
+                        <p class="summary-value positive" id="entradasJulho">R$ 0,00</p>
+                    </div>
+                    <div class="summary-card">
+                        <h4>Saídas</h4>
+                        <p class="summary-value negative" id="saidasJulho">R$ 0,00</p>
+                    </div>
+                    <div class="summary-card">
+                        <h4>Saldo</h4>
+                        <p class="summary-value" id="saldoJulho">R$ 0,00</p>
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="tableJulho">
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Descrição</th>
+                                <th>Tipo</th>
+                                <th>Valor</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableJulhoBody">
+                            <!-- Dados serão carregados via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Acordos Section -->
+        <section id="acordos" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Acordos com Fornecedores</h2>
+                    <p>Cronograma e status dos acordos</p>
+                </div>
+
+                <div class="acordos-timeline">
+                    <div class="timeline-header">
+                        <h3>Cronograma de Pagamentos</h3>
+                        <div class="timeline-controls">
+                            <button class="btn-secondary">
+                                <i class="fas fa-calendar"></i>
+                                Ver Calendário
+                            </button>
+                        </div>
+                    </div>
+                    <div class="timeline-container" id="timelineContainer">
+                        <!-- Timeline será gerada via JavaScript -->
+                    </div>
+                </div>
+
+                <div class="table-container">
+                    <table class="data-table" id="tableAcordos">
+                        <thead>
+                            <tr>
+                                <th>Fornecedor</th>
+                                <th>Valor Total</th>
+                                <th>Parcelas</th>
+                                <th>Próximo Vencimento</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableAcordosBody">
+                            <!-- Dados serão carregados via JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Relatórios Section -->
+        <section id="relatorios" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Relatórios e Análises</h2>
+                    <p>Análises detalhadas e comparativas</p>
+                </div>
+
+                <div class="reports-grid">
+                    <div class="report-card">
+                        <h3>Análise Mensal</h3>
+                        <div class="chart-container">
+                            <canvas id="monthlyChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="report-card">
+                        <h3>Comparativo Anual</h3>
+                        <div class="chart-container">
+                            <canvas id="yearlyChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="report-card">
+                        <h3>Status dos Acordos</h3>
+                        <div class="chart-container">
+                            <canvas id="agreementsChart"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="report-card">
+                        <h3>Fluxo de Caixa</h3>
+                        <div class="chart-container">
+                            <canvas id="cashflowChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="export-section">
+                    <h3>Exportar Dados</h3>
+                    <div class="export-buttons">
+                        <button class="btn-primary">
+                            <i class="fas fa-file-excel"></i>
+                            Exportar Excel
+                        </button>
+                        <button class="btn-primary">
+                            <i class="fas fa-file-pdf"></i>
+                            Exportar PDF
+                        </button>
+                        <button class="btn-primary">
+                            <i class="fas fa-file-csv"></i>
+                            Exportar CSV
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Clínica Nefrológica de Caruaru LTDA. Todos os direitos reservados.</p>
+            <p>Sistema de Gestão Financeira - Desenvolvido com tecnologia moderna</p>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Carregando dados...</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+

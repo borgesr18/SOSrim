@@ -1,0 +1,37 @@
+{
+  "empresa": "CLÍNICA NEFROLÓGICA DE CARUARU LTDA.",
+  "total_abas": 4,
+  "tipos_planilhas": [
+    {
+      "nome": "PLANILHA ATRAS. JAN. A JUL 2025",
+      "tipo": "contas_atrasadas",
+      "descricao": "Planilha de contas em atraso de Janeiro a Julho 2025",
+      "linhas": 263,
+      "colunas": 12
+    },
+    {
+      "nome": "PLANILHA ACORDO ",
+      "tipo": "acordos_cronograma",
+      "descricao": "Cronograma de acordos com fornecedores",
+      "linhas": 48,
+      "colunas": 48
+    },
+    {
+      "nome": "PLANILHA PAGTOS JULHO 2025",
+      "tipo": "pagamentos_julho",
+      "descricao": "Planilha de pagamentos de Julho 2025",
+      "linhas": 223,
+      "colunas": 9
+    },
+    {
+      "nome": "PLANILHA PAGTOS ACORDOS FORN.",
+      "tipo": "acordos_fornecedores",
+      "descricao": "Acordos com fornecedores",
+      "linhas": 29,
+      "colunas": 6
+    }
+  ],
+  "resumo_financeiro": {
+    "total_geral": 51670398.480000004
+  }
+}
